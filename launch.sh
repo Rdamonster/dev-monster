@@ -133,7 +133,7 @@ else
   echo -e "       dev > @Reda999           " 
   echo -e "       dev > @Reda999         \033[0;00m"
   echo -e "\e[36m"                                      
-  echo -e "CH > @Reda999" 
+  echo -e "CH > @MoNStEr53" 
    cat << EOF
 EOF
 echo -e "\e[100m          dev > @Reda999
@@ -160,5 +160,5 @@ echo ""
     rm gban1
     
   fi
-  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./crystal/monster.lua -l 1 -E $@
+  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./monster/monster.lua -l 1 -E $@
 fi
