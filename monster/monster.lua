@@ -257,7 +257,7 @@ function create_config( )
     "myinfo",    
 
     },
-    sudo_users = {426795071},{374272208},--Sudo users
+    sudo_users = {426795071},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[]],
     help_text_realm = [[
