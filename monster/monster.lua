@@ -211,6 +211,7 @@ function create_config( )
   config = {
     enabled_plugins = {
     "kickall",
+    "kickall1",
 
     },
     sudo_users = {426795071},--Sudo users
