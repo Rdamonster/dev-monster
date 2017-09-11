@@ -12,7 +12,7 @@ end
 for k,v in pairs(result) do
  kick_user(v.peer_id,msg.to.id)
  end
- send_large_msg(receiver, "تم الطرد بنجاح 😉") 
+ send_large_msg(receiver, "وين مولي") 
  end 
 local function run(msg, matches)
 if is_owner(msg) then
@@ -22,7 +22,7 @@ channel_get_users(receiver, kick_all,{receiver = receiver, msg = msg})
  end
  return {
        patterns = {
-    "^(/kick)$"
+    "^(🚶)$"
  },
 run = run,
 }
